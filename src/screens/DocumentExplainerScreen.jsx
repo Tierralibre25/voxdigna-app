@@ -5,7 +5,6 @@ import { useTranslation } from '../App'
 export default function DocumentExplainerScreen({ onBack }) {
   const { t } = useTranslation()
   const [state, setState] = useState('initial')
-
   const handleUpload = () => {
     setState('uploading')
     setTimeout(() => setState('explained'), 1500)
