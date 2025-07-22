@@ -9,7 +9,6 @@ const DATA = [
   { id:3, name:'Docce Pubbliche', address:'Via della Penitenza,25', category:'Lavarsi' },
   { id:4, name:'Ambulatorio Medico', address:'Via dei Reti,23', category:'Curarsi' }
 ]
-
 export default function HelpMapScreen({ onBack }) {
   const { t } = useTranslation()
   const [filter, setFilter] = useState('Tutti')
