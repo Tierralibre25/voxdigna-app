@@ -10,7 +10,6 @@ export default function DocumentExplainerScreen({ onBack }) {
     setState('uploading')
     setTimeout(() => setState('explained'), 1500)
   }
-
   return (
     <div style={{ padding: 20 }}>
       <button onClick={onBack}>{t('understood')}</button>
