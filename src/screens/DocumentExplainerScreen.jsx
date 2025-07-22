@@ -1,4 +1,3 @@
-// src/screens/DocumentExplainerScreen.jsx
 import React, { useState } from 'react'
 import { FileText, Camera } from 'lucide-react'
 import { useTranslation } from '../App'
