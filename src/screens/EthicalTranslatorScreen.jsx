@@ -2,13 +2,11 @@
 import React, { useState } from 'react'
 import { Sparkles, X, Mic, Copy, Volume2 } from 'lucide-react'
 import { useTranslation } from '../App'
-
 export default function EthicalTranslatorScreen({ onBack }) {
   const { t } = useTranslation()
   const [inputText, setInputText] = useState('')
   const [result, setResult] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
-
   const handleTranslate = () => {
     if (!inputText.trim()) return
     setIsLoading(true)
