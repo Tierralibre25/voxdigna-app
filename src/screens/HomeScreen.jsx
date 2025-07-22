@@ -5,7 +5,6 @@ import { Sparkles, FileText, Map, Landmark, BookUser, Shield } from 'lucide-reac
 
 export default function HomeScreen({ onNavigate }) {
   const { t } = useTranslation();
-
   const buttons = [
     { key: 'translator', icon: <Sparkles size={36} />, label: t('btn_translator') },
     { key: 'document',   icon: <FileText size={36} />, label: t('btn_document') },
