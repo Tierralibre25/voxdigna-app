@@ -1,4 +1,8 @@
 // src/App.jsx
+ import React, { useState } from 'react';
+-import { translations } from './i18n/translations';
++import { translations } from './i18n/translations';
++import HomeScreen from './screens/HomeScreen';
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import {
   Mic, Camera, Shield, BookUser, ArrowLeft, Languages, FileText,
