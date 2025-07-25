@@ -1,11 +1,9 @@
-// src/screens/HomeScreen.jsx
 import React from 'react';
-import { useTranslation } from '../App'; // o dal tuo LanguageContext
+import { useTranslation } from '../App';
 import { Sparkles, FileText, Map, Landmark, BookUser, Shield } from 'lucide-react';
 
 export default function HomeScreen({ onNavigate }) {
   const { t } = useTranslation();
-
   const buttons = [
     { key: 'translator', icon: <Sparkles size={36} />, label: t('btn_translator') },
     { key: 'document',   icon: <FileText size={36} />, label: t('btn_document') },
@@ -14,7 +12,6 @@ export default function HomeScreen({ onNavigate }) {
     { key: 'phrases',    icon: <BookUser size={36} />, label: t('btn_phrases') },
     { key: 'sos',        icon: <Shield size={36} />, label: t('btn_sos') },
   ];
-
   return (
     <div style={{ padding: 20 }}>
       <h1>{t('home_title')}</h1>
