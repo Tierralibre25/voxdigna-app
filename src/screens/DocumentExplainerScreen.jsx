@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { FileText, Camera } from 'lucide-react'
 import { useTranslation } from '../App'
-
 export default function DocumentExplainerScreen({ onBack }) {
   const { t } = useTranslation()
   const [state, setState] = useState('initial')
