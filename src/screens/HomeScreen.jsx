@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from '../App';
-import { Sparkles, FileText, Map, Landmark, BookUser, Shield } from 'lucide-react';
+import { Sparkles, FileText, Map, Landmark, BookOpen, Shield } from 'lucide-react';
 
 export default function HomeScreen({ onNavigate }) {
   const { t } = useTranslation();
@@ -9,7 +9,7 @@ export default function HomeScreen({ onNavigate }) {
     { key: 'document',   icon: <FileText size={36} />, label: t('btn_document') },
     { key: 'map',        icon: <Map size={36} />, label: t('btn_map') },
     { key: 'contacts',   icon: <Landmark size={36} />, label: t('btn_contacts') },
-    { key: 'phrases',    icon: <BookUser size={36} />, label: t('btn_phrases') },
+    { key: 'phrases',    icon: <BookOpen size={36} />, label: t('btn_phrases') },
     { key: 'sos',        icon: <Shield size={36} />, label: t('btn_sos') },
   ];
   return (
