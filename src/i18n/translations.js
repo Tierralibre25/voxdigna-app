@@ -1,4 +1,3 @@
-// src/i18n/translations.js
 export const translations = {
   es: {
     home_title:     'VoxDigna',
@@ -9,7 +8,13 @@ export const translations = {
     btn_contacts:   'Contactos útiles',
     btn_phrases:    'Frases rápidas',
     btn_sos:        'SOS',
-    understood:     'Entendido'
+    back:           'Atrás',
+    screen_translator_title:  'Traductor Ético',
+    screen_document_title:    'Explicar Documento',
+    screen_map_title:         'Mapa de Ayuda',
+    screen_contacts_title:    'Contactos Útiles',
+    screen_phrases_title:     'Frases Útiles',
+    screen_sos_title:         'Emergencia SOS',
   },
   it: {
     home_title:     'VoxDigna',
@@ -20,7 +25,13 @@ export const translations = {
     btn_contacts:   'Contatti utili',
     btn_phrases:    'Frasi rapide',
     btn_sos:        'SOS',
-    understood:     'Capito'
+    back:           'Indietro',
+    screen_translator_title:  'Traduttore Etico',
+    screen_document_title:    'Spiega Documento',
+    screen_map_title:         'Mappa di Aiuto',
+    screen_contacts_title:    'Contatti Utili',
+    screen_phrases_title:     'Frasi Utili',
+    screen_sos_title:         'SOS Emergenza',
   },
   en: {
     home_title:     'VoxDigna',
@@ -31,30 +42,12 @@ export const translations = {
     btn_contacts:   'Useful Contacts',
     btn_phrases:    'Quick Phrases',
     btn_sos:        'SOS',
-    understood:     'Understood'
-  },
-  // se vuoi aggiungere altre lingue, prosegui qui sotto:
-  fr: {
-    home_title:     'VoxDigna',
-    home_subtitle:  'Votre voix, votre dignité.',
-    btn_translator: 'Traducteur éthique',
-    btn_document:   'Expliqueur de documents',
-    btn_map:        'Carte d’urgence',
-    btn_contacts:   'Contacts utiles',
-    btn_phrases:    'Phrases rapides',
-    btn_sos:        'SOS',
-    understood:     'Compris'
-  },
-  de: {
-    home_title:     'VoxDigna',
-    home_subtitle:  'Deine Stimme, deine Würde.',
-    btn_translator: 'Ethischer Übersetzer',
-    btn_document:   'Dokumentenerklärer',
-    btn_map:        'Hilfe-Karte',
-    btn_contacts:   'Nützliche Kontakte',
-    btn_phrases:    'Schnellphrasen',
-    btn_sos:        'SOS',
-    understood:     'Verstanden'
+    back:           'Back',
+    screen_translator_title:  'Ethical Translator',
+    screen_document_title:    'Document Explainer',
+    screen_map_title:         'Help Map',
+    screen_contacts_title:    'Useful Contacts',
+    screen_phrases_title:     'Quick Phrases',
+    screen_sos_title:         'SOS Emergency',
   }
-  // …aggiungi qui ro, ar, ecc.
 }
